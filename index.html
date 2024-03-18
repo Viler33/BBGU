@@ -1,0 +1,746 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>卉廷书屋 首页</title>
+    <link href="css/base1.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/floor.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="plug/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="logo.ico" />
+    <style>.recommend {
+	clear: both;
+	overflow: hidden;
+	padding-top: 10px;
+}
+
+.recommend .title {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: solid 2px #ff4a00;
+}
+
+.recommend .title img {
+	float: left;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.recommend .title p {
+	float: left;
+	color: #000;
+	font-size: 18px;
+	padding-left: 5px;
+	FONT-FAMILY: "Microsoft Yahei";
+}</style>
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="top-c">
+            <div class="top-left">
+                <a href="javascript:;" class="collect" >收藏</a>
+                <a href="javascript:;" class="wechat">微信</a>
+            </div>
+            <div class="top-right">
+                <p>嗨，欢迎来到卉廷书屋</p>
+                <p><a href="login.html">请登录</a> | <a href="register.html">免费注册</a></p>
+                <p><a href="javascript:;">我的订单</a> | <a href="#">服务中心</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="header">
+        <div class="logo"><a href="#"><img src="img/卉廷书屋.png" width="100" /></a></div>
+
+        <div class="header-right">
+            <div class="search-section">
+                <div class="keyword"><input name="keyword" type="text" value="请输入关键字" onFocus="this.value=''"
+                        onBlur="if(!value){value=defaultValue;}" /></div>
+                <div class="btn"></div>
+            </div>
+
+            <div class="cart-section">
+                <p>购物车(2)</p>
+                <div class="hidden-cart">
+                    <p>购物车(2)</p>
+                </div>
+                <div class="hidden-cart-c">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/00.jpg" width="60" height="60" /></a>
+                            <p><a href="#">
+                                     仓央嘉措诗传</a></p>
+                            <pre>29元 x 1</pre>
+                            <ins>x</ins>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/00.jpg" width="60" height="60" /></a>
+                            <p><a href="#">
+                                    仓央嘉措诗传</a></p>
+                            <pre>29元 x 1</pre>
+                            <ins>x</ins>
+                        </li>
+                    </ul>
+                    <div class="cart-btn">
+                        <p>共计 2 件商品<span>合计：<strong>58.00元</strong></span></p>
+                        <input type="button" value="去结算" />
+                    </div>
+
+                    <div class="cart-not hidden">购物车中还没有商品，赶紧选购吧！</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="header-wrap">
+        <div class="navwrap">
+            <div id="nav">
+                <div class="navbar clearfix">
+                    <a class="current" href="index.html">首页</a>
+                    <a href="#">推荐</a>      
+                    <a href="products-list.html">在线商城</a>
+                    <a href="#">关于我们</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">品牌保障<em class="sale"></em></a>
+                </div>
+
+                <div class="pros subpage">
+                    <h2 id="categoryTitle" >全部书籍分类</h2>
+                    <ul class="prosul clearfix" id="proinfo" style="display:none">
+                        <li>
+                            <h3>文学</h3>
+                            <a href="#">小说</a>
+                            <a href="#">散文随笔</a>
+                            <a href="#">传记</a>
+                            <div class="prosmore hide">
+                               
+                                <span><em class="morehot"><a class="morehot" href="#">科幻</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">悬疑推理</a></em></span>
+                                <span><em><a href="#">武侠</a></em></span>
+                                <span><em><a href="#">世界名著</a></em></span>
+                                <span><em><a href="#">青春文学</a></em></span>
+                                <span><em><a href="#">诗歌</a></em></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>人文社科</h3>
+                            <a href="#">历史</a>
+                            <a href="#">传统文化</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">哲学宗教</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#"> 社会科学</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">心理学</a></em></span>
+                                <span><em><a href="#">政治理论</a></em></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>艺术</h3>
+                            <a href="#">绘画</a>
+                            <a href="#">书法</a>
+                            <a href="#">摄影</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">艺术史</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">影视艺术</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">设计</a></em></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>非物质文化遗产</h3>
+                            <a href="#">考古学</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">艺术史</a></em></span>
+                                <span><em ><a href="#">传统技艺</a></em></span>
+                                <span><em><a  href="#">传统医学</a></em></span>
+                                 <span><em><a  href="#">民间文学</a></em></span>
+                                  <span><em class="morehot"><a class="morehot" href="#">民俗文化</a></em></span>
+                                   <span><em class="morehot"><a class="morehot" href="#">民间流传</a></em></span>
+                            </div>     
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="banner">
+        <div class="fullSlide">
+            <div class="bd">
+                <ul>
+                    <li _src="url(img/slider1.png)" style="background:#10202D center 0 no-repeat;"><a></a>
+                    </li>
+                    <li _src="url(img/slider4.png)" style="background:#B61414 center 0 no-repeat;"><a></a>
+                    </li>
+                    <li _src="url(img/slider2.png)" style="background:#EAF0E9 center 0 no-repeat;"><a></a>
+                    </li>
+                    <li _src="url(img/slider3.png)" style="background:#76D0F4 center 0 no-repeat;"><a></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd">
+                <ul></ul>
+            </div>
+            <span class="prev"></span>
+            <span class="next"></span>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="recommend">
+            <div class="title"><img src="img/热门.png" />
+                <p>热门书籍</p>
+            </div>
+            <div class="clr20"></div>
+            <div class="left">
+                <div class="img"><a href="#"><img src="img/本周书单.png" width="619" height="350" /></a>
+                </div>
+                <div class="img img_309">
+                    <a href="#"><img src="img/poster1.png" width="300" height="350" /></a>
+                </div>
+                <div class="img img_309">
+                 <a href="#"><img src="img/poster2.png" width="300" height="350" /></a>
+                </div>
+                <div class="img img_309">
+                   <a href="#"><img src="img/poster3.png" width="300" height="350" /></a>
+                </div>
+                <div class="img img_309">
+                    <a   href="#"><img src="img/poster4.png" width="300" height="350" /></a>
+                </div>
+            </div>
+            <div class="right">
+                <h2><span>TOP 5</span>热销书籍</h2>
+                <ul class="board-list">
+                    <li>
+                        <span class="item-num top3">1</span>
+                        <span class="item-info">
+                            <span class="item-title"><a href="繁花 商品详情.html">繁花</a></span>
+                            <span class="item-price">49元 </span>
+                        </span>
+                        <span class="item-thumb"><a href="繁花 商品详情.html"><img src="img/01.jpg" width="100"
+                                    height="90" /></a></span>
+                    </li>
+                    <li>
+                        <span class="item-num top3">2</span>
+                        <span class="item-info">
+                            <span class="item-title"><a href="#">长夜难明</a></span>
+                            <span class="item-price">42元 </span>
+                        </span>
+                        <span class="item-thumb"><a href="#"><img src="img/02.jpg" width="100"
+                                    height="90" /></a></span>
+                    </li>
+                    <li>
+                        <span class="item-num top3">3</span>
+                        <span class="item-info">
+                            <span class="item-title"><a href="#">木心全集</a></span>
+                            <span class="item-price">89.9元 </span>
+                        </span>
+                        <span class="item-thumb"><a href="#"><img src="img/03.jpg" width="100"
+                                    height="90" /></a></span>
+                    </li>
+                    <li>
+                        <span class="item-num">4</span>
+                        <span class="item-info">
+                            <span class="item-title"><a href="#">听风八百遍，才知是人间</a></span>
+                            <span class="item-price">24元 </span>
+                        </span>
+                        <span class="item-thumb"><a href="#"><img src="img/04.jpg" width="100"
+                                    height="90" /></a></span>
+                    </li>
+                    <li>
+                        <span class="item-num">5</span>
+                        <span class="item-info">
+                            <span class="item-title"><a href="#">我以文字为业</a></span>
+                            <span class="item-price">52元 </span>
+                        </span>
+                        <span class="item-thumb"><a href="#"><img src="img/05.jpg" width="100"
+                                    height="90" /></a></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="list-title">
+            <p><strong style="border-bottom:solid 2px #00c3d5;">古代文学</strong></p><a href="products-list.html">More</a>
+        </div>
+        <div class="list-div">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/06.jpg" width="220" height="220" /></a>
+                    <p><a href="#">史记</a></p>
+                    <pre>西汉著名史学家司马迁撰写的一部纪传体史书</pre>
+                </li>
+                <li>
+                    <a href="#"><img src="img/07.jpg" width="220" height="220" /></a>
+                    <p><a href="#">聊斋志异</a></p>
+                    <pre>中国清朝小说家蒲松龄创作的文言短篇小说集</pre>
+                </li>
+                <li>
+                    <a href="#"><img src="img/08.jpg" width="220" height="220" /></a>
+                    <p><a href="#">周易</a></p>
+                    <pre>中国传统思想文化中自然哲学与人文实践的理论根源</pre>
+                </li>
+                <li>
+                    <a href="#"><img src="img/09.jpg" width="220" height="220" /></a>
+                    <p><a href="#">论语</a></p>
+                    <pre>春秋时期思想家、教育家孔子的弟子及再传弟子记录孔子及其弟子言行而编成的语录文集</pre>
+                </li>
+            </ul>
+        </div>
+
+        <div class="list-title">
+            <p><strong style="border-bottom:solid 2px #54cb00;">近代文学</strong></p><a href="products-list.html">More</a>
+        </div>
+        <div class="list-div">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/10.jpg" width="220" height="220" /></a>
+                    <p><a href="#">边城</a></p>
+                    <pre>小说入选20世纪中文小说100强，排名第二位</pre>
+                </li>
+                <li>
+                    <a href="#"><img src="img/11.jpg" width="220" height="220" /></a>
+                    <p><a href="#">围城</a></p>
+                    <pre>中国现代文学史上一部风格独特的讽刺小说。被誉为“新儒林外史”。</pre>
+                </li>
+                <li>
+                    <a href="#"><img src="img/12.jpg" width="220" height="220" /></a>
+                    <p><a href="#">倾城之恋</a></p>
+                    <pre>作家张爱玲创作的中篇小说</pre>
+                </li>
+                <li>
+                    <a href="#"><img src="img/13.jpg" width="220" height="220" /></a>
+                    <p><a href="#">白鹿原</a></p>
+                    <pre>作家陈忠实创作的长篇小说，获得中国第四届茅盾文学奖</pre>
+                </li>
+               
+            </ul>
+        </div>
+        <div class="list-title">
+            <p><img src="img/特价.png" /><strong style="border-bottom:solid 4px #D03322;color: #D12622;">特价商品</strong></p><a href="products-list.html">More</a>
+        </div>
+          
+        <div class="list-div">
+            <ul>
+                <li>
+                    <label><a href="#">白鹿原</a></label>
+                    <cite>29元<del>59元</del></cite>
+                    <dfn>省20元</dfn>
+                    <a href="#"><img src="img/13.jpg" width="220" height="220" /></a>
+                </li>
+                <li>
+                    <label><a href="#">围城</a></label>
+                    <cite>38元<del>49元</del></cite>
+                    <dfn>省11元</dfn>
+                    <a href="#"><img src="img/11.jpg" width="220" height="220" /></a>
+                </li>
+                <li>
+                    <label><a href="繁花 商品详情.html">繁花</a></label>
+                    <cite>49元<del>69元</del></cite>
+                    <dfn>省20元</dfn>
+                    <a href="#"><img src="img/01.jpg" width="220" height="220" /></a>
+                </li>
+                <li>
+                    <label><a href="#">长夜难明</a></label>
+                    <cite>42元<del>79元</del></cite>
+                    <dfn>省37元</dfn>
+                    <a href="#"><img src="img/02.jpg" width="220" height="220" /></a>
+                </li>
+              
+            </ul>
+        </div>
+
+    </div>
+  <div id="content" >   
+    <div class="floor" >
+           
+           <div  class="floor-line-con">
+              <div class="floor-left">
+                 <div class="left-title">
+                   <i class="color-mark"></i>
+                   <h2>书籍分类</h2>
+                 </div>
+                 <div class="left-img">
+                    <a href="javascript:void">
+                      <img src="img/floor_left.jpg">
+                    </a>
+                 </div>
+                 <div class="left-tag">
+                   <ul>
+                     <li>
+                       <a href="javascript:void">小说</a>
+                       <a href="javascript:void">散文</a>
+                       <a href="javascript:void">诗歌</a>
+                       <a href="javascript:void">历史</a>
+                       <a href="javascript:void">艺术</a>
+                       <a href="javascript:void">政治</a>
+                       <a href="javascript:void">社会科学</a>
+                       <a href="javascript:void">哲学</a>
+                     </li>
+                   </ul>
+                 </div>
+              </div><!--floor-left-->
+              <div class="floor-right" id="floor1">
+                <ul class="floor-nav" id="floor1Nav">
+                 <!--   <li  class="selected" onmouseover="changeTab(this)"  data-index='1'> -->
+                 <li  class="selected"   data-index='1'> 
+                     <i ></i>
+                     <h3>文学</h3>
+                   </li>
+                    <li   data-index='2'>
+                     <i></i>
+                     <h3>人文社科</h3>
+                   </li>
+                    <li data-index='3'>
+                     <i ></i>
+                     <h3>艺术</h3>
+                   </li>
+                    <li data-index='4'>
+                     <i ></i>
+                     <h3>文化遗产</h3>
+                   </li>
+                </ul>
+                <div class="floor-goodslist" style="display:block;" data-index='1'>
+                  <ul>
+                    <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/01.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="繁花 商品详情.html">繁花<img src="img/特价 2.png" /></a></dt>
+                        <dd class="goods-price">
+                          <em>￥49.00     <del>￥69.00</del></em>
+                        </dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/02.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">长夜难明<img src="img/特价 2.png" /></a></dt>
+                        <dd class="goods-price">
+                          <em>￥42.00    <del>￥79.00</del></em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/11.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">围城<img src="img/特价 2.png" /></a></dt>
+                        <dd class="goods-price">
+                          <em>￥38.00    <del>￥49.00</del></em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/04.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">听风八百遍才知是人间</a></dt>
+                        <dd class="goods-price">
+                          <em>￥24.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/12.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">倾城之恋</a></dt>
+                        <dd class="goods-price">
+                          <em>￥29.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                      <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/10.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">边城</a></dt>
+                        <dd class="goods-price">
+                          <em>￥39.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                       <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/13.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">白鹿原<img src="img/特价 2.png" /></a></dt>
+                        <dd class="goods-price">
+                          <em>￥29.00    <del>￥59.00</del></em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/14.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">钟鼓楼</a></dt>
+                        <dd class="goods-price">
+                          <em>￥29.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                  </ul>
+             </div>
+               
+              <div class="floor-goodslist" data-index='2'>
+                  <ul>
+                    <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/06.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">史记</a></dt>
+                        <dd class="goods-price">
+                          <em>￥19.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/07.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">聊斋志异</a></dt>
+                        <dd class="goods-price">
+                          <em>￥24.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/08.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">周易</a></dt>
+                        <dd class="goods-price">
+                          <em>￥18.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/09.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">论语</a></dt>
+                        <dd class="goods-price">
+                          <em>￥19.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/15.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">资治通鉴</a></dt>
+                        <dd class="goods-price">
+                          <em>￥29.80</em>
+                        </dd>
+                      </dl>
+                    </li>
+                     
+                  </ul>
+             </div>
+             
+                  <div class="floor-goodslist" data-index='3'>
+                  <ul>
+                    <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/16.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">中国艺术史</a></dt>
+                        <dd class="goods-price">
+                          <em>￥49.00</em>
+                        </dd>
+                      </dl>
+                    </li>
+                     <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/17.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">故宫之美</a></dt>
+                        <dd class="goods-price">
+                          <em>￥29.80</em>
+                        </dd>
+                      </dl>
+                    </li>
+                  </ul>
+             </div>
+                 <div class="floor-goodslist" data-index='4'>
+                  <ul>
+                    <li>
+                      <dl>
+                        <dd class="goods-img">
+                          <a href="#">
+                            <img src="img/18.jpg">
+                          </a>
+                        </dd>
+                        <dt class="goods-name"><a href="#">海龙囤</a></dt>
+                        <dd class="goods-price">
+                          <em>￥26.90</em>
+                        </dd>
+                      </dl>
+                    </li>
+                  </ul>
+             </div>
+
+              </div><!--floor-right-->
+
+           </div><!--floor-line-->
+
+        </div>
+  </div>
+     </div>
+    <div class="footer">
+        <div class="footer-c">
+            <dl>
+                <dt>购买指南</dt>
+                <dd><a href="#">第一次购物体验</a></dd>
+                <dd><a href="#">品质保证原则</a></dd>
+                <dd><a href="#">会员申请条件</a></dd>
+            </dl>
+            <dl>
+                <dt>支付方式</dt>
+                <dd><a href="#">网银在线支付</a></dd>
+                <dd><a href="#">支付宝支付</a></dd>
+                <dd><a href="#">银联在线支付</a></dd>
+            </dl>
+            <dl>
+                <dt>配送方式</dt>
+                <dd><a href="#">配送方式</a></dd>
+                <dd><a href="#">配送地址</a></dd>
+            </dl>
+            <dl>
+                <dt>售后服务</dt>
+                <dd><a href="#">联系客服</a></dd>
+                <dd><a href="#">订单查询</a></dd>
+                <dd><a href="#">退换货流程及原则</a></dd>
+            </dl>
+
+            <div class="col-contact">
+                <p class="phone">400-100-5678</p>
+                <p>周一至周日 8:00-18:00<br />（仅收市话费）</p>
+                <input type="button" value="在线客服" />
+            </div>
+            <div class="clr20"></div>
+            <div class="footer-b">
+                <p><a href="#">关于我们</a> | <a
+                        >卉廷书屋</a>
+                    | <a href="#">联系我们</a></p>
+                <p>2023 ©  版权所有  卉廷书屋</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <!--<script  src="js/jquery-3.1.1.js" type="text/javascript"></script>-->
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">$(function() {
+	/*------------------------------购物车效果-----------------------------------*/
+	$(".cart-section").hover(function() {
+		$(".hidden-cart").css("display", "block");
+		$(".hidden-cart-c").css("display", "block");
+	}, function() {
+		$(".hidden-cart").css("display", "none");
+		$(".hidden-cart-c").css("display", "none");
+	})
+
+	$(".hidden-cart-c ul li ins").click(function() {
+		$(this).parents('li').remove();
+	})
+
+})
+
+/*------------------------------banner特效-----------------------------------*/
+$(".fullSlide").hover(function() {
+		$(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+	},
+	function() {
+		$(this).find(".prev,.next").fadeOut()
+	});
+$(".fullSlide").slide({
+	titCell: ".hd ul",
+	mainCell: ".bd ul",
+	effect: "fold",
+	autoPlay: true,
+	autoPage: true,
+	trigger: "click",
+	startFun: function(i) {
+		var curLi = jQuery(".fullSlide .bd li").eq(i);
+		if(!!curLi.attr("_src")) {
+			curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+		}
+	}
+});
+/*------------------------------选项卡切换-----------------------------------*/
+$(document).ready(function(){
+  // 初始显示第一个选项卡内容
+  $('.floor-goodslist[data-index="1"]').show();
+
+  // 鼠标悬停在选项卡上切换内容
+  $('#floor1Nav li').mouseover(function(){
+    var index = $(this).data('index');
+
+    // 切换选项卡样式
+    $(this).addClass('selected').siblings().removeClass('selected');
+
+    // 切换内容
+    $('.floor-goodslist').hide();
+    $('.floor-goodslist[data-index="' + index + '"]').show();
+  });
+});
+</script>
+
+</html>
